@@ -1,0 +1,5 @@
+-----------------------------------------
+shot front facing with canon --ar 16:9
+-----------------------------------------
+Front Portrait, Unreal Engine, Cinematic, Color Grading, Ultra – Wide Angle, Depth of Field, hyper – detailed, beautiful color – coded, insane details, intricate details, beautifully color graded, Cinematic, Color Grading, Editorial Photography, Photography, Photoshoot, Depth of Field, DOF, Tilt Blur, Shutter Speed 1/ 1000, F/ 22, White Balance, 32k, Super – Resolution, Megapixel, ProPhoto RGB, VR, Lonely, Good, Massive, Lighting, Backlight, Natural Lighting, Incandescent, Optical Fiber, Moody Lighting, Cinematic Lighting, Studio Lighting, Soft Lighting, Volumetric, Contre – Jour, Beautiful Lighting, Accent Lighting, Global Illumination, Screen Space Global Illumination, Ray Tracing Global Illumination, Optics, Scattering, Glowing, Shadows, Rough, Shimmering, Ray Tracing Reflections, Lumen Reflections --v 5
+----------------------------------------

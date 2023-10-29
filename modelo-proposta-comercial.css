@@ -1,0 +1,15 @@
+h3 {
+    font-size: 72px;
+    
+    background: linear-gradient(to right, #37aee0, #d52a2a);
+   
+    animation: animar-gradient 15s linear infinite;
+    -webkit-text-fill-color: transparent;
+    
+    
+    background-clip: text;}
+  @keyframes animar-gradient {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+  }

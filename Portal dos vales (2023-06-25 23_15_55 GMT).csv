@@ -1,0 +1,59 @@
+"WBS #","Name / Title",Type,"Start Date","End Date","Estimated Hours","Actual Hours","Percent Complete",Resources,Predecessors,Notes,Comments,"Task Color"
+1,"Portal dos vales",project,2018-09-14,2019-02-22,0,0,66.65,,,,,
+1.1,"Contratos e Documentações",group,2018-10-18,2018-10-18,0,0,0,,,,,
+1.1.1,"Formalizar Compra e Venda",task,2018-10-18,2018-10-18,0,0,0,,,,,blue2
+1.1.2,"Registro escritura",task,2018-10-18,2018-10-18,0,0,0,,,,,blue2
+1.2,"Projeto Arquitetônico",group,2018-09-14,2018-10-29,0,0,53.68,,,,,
+1.2.1,"Projeto Estrutural",task,2018-09-14,2018-10-08,0,0,60,"Madson Lima Pinto",,,,blue2
+1.2.2,"Revisão realizada",task,2018-10-08,2018-10-08,0,0,0,"Madson Lima Pinto",1.2.1,,,blue2
+1.2.3,"Projeto Arquitetônico Aprovado",milestone,2018-10-29,2018-10-29,0,0,0,,,,,blue2
+1.3,"Projetos Complementares",group,2018-10-09,2018-10-26,0,0,100,,,,,
+1.3.1,"Projeto Hidráulico",task,2018-10-09,2018-10-26,0,0,100,,,,,blue2
+1.3.2,"Projeto Elétrico",task,2018-10-09,2018-10-26,0,0,100,,,,,blue2
+1.3.3,"Projeto Incêndio",task,2018-10-09,2018-10-26,0,0,100,,,,,blue2
+1.3.4,"Projeto Ar Condicionado | Exaustores",task,2018-10-09,2018-10-26,0,0,100,,,,,blue2
+1.3.5,"Projetos definidos",milestone,2018-10-22,2018-10-22,0,0,100,,,,,blue2
+1.4,"Execução de Obras",group,2018-10-29,2019-02-15,0,0,65.63,,,,,
+1.4.1,"Obras de Demolição",task,2018-10-29,2018-11-02,0,0,100,,1.2.3,,,blue2
+1.4.2,"Obras de Impermeabilização",task,2019-01-01,2019-01-07,0,0,100,,,,,blue2
+1.4.3,"Instalações de Incêndio",task,2019-01-12,2019-02-15,0,0,50,,,,,blue2
+1.4.4,"Instalações de Ar Condicionado",task,2019-01-11,2019-01-31,0,0,100,,,,,blue2
+1.4.5,"Instalações de Exaustão e Ventilação",task,2019-01-11,2019-01-31,0,0,0,,,,,blue2
+1.4.6,"Instalações de Hidrosanitário",task,2019-01-21,2019-01-23,0,0,100,,,,,blue2
+1.4.7,"Levantamento de Paredes Drywall",task,2019-01-14,2019-02-12,0,0,100,,,,,blue2
+1.4.8,"Acabamento paredes",task,2019-01-22,2019-01-28,0,0,0,,,,,blue2
+1.5,"Aquisição de Itens Construção",group,,,0,0,0,,,,,
+1.5.1,"Material Impermeabilização",task,,,0,0,100,,,,,blue2
+1.5.2,"Material elétrico",task,,,0,0,100,,,,,blue2
+1.5.3,"Material hidráulico",task,,,0,0,100,,,,,blue2
+1.5.4,"Material Incêndio",task,,,0,0,100,,,,,blue2
+1.5.5,"Material Piso",task,,,0,0,100,,,,,blue2
+1.6,"Aquisição Móveis, Máquinas e Equipamentos",group,,,0,0,0,,,,,
+1.6.1,"Aquisição Televisores",task,,,0,0,100,,,,,blue2
+1.7,"Serviços e Locações",group,2018-11-04,2019-01-25,0,0,78.25,,,,,
+1.7.1,"Locação Totens: Videosoft",task,2018-11-04,2019-01-21,0,0,80,,,,,blue2
+1.7.2,"Locação Software: Linx",task,2019-01-21,2019-01-25,0,0,50,,,,,blue2
+1.7.3,"QRPoint: Relógio de ponto",task,2019-01-16,2019-01-23,0,0,0,,,,,blue2
+1.7.4,Intera,task,2018-12-20,2019-01-15,0,0,100,,,,,blue2
+1.7.5,"Koppe Arquitetura",task,2019-01-21,2019-01-23,0,0,60,,,,,blue2
+1.7.6,"Transportadora Tartaruga",task,2019-01-17,2019-01-25,0,0,100,,,,,blue2
+1.8,Fornecedores,group,2018-10-11,2019-02-22,0,0,60.04,,,,,
+1.8.1,"Banco do Brasil",task,2018-10-11,2019-01-15,0,0,50,,,,,blue2
+1.8.2,BNB,task,2018-10-11,2018-10-24,0,0,0,,,,,blue2
+1.8.3,Brinox,task,2019-01-07,2019-01-21,0,0,100,,,,,blue2
+1.8.4,"Cristiano Móveis",task,2018-10-11,2019-01-18,0,0,50,,,,,blue2
+1.8.5,DayHome,task,2018-10-11,2019-01-25,0,0,100,,,,,blue2
+1.8.6,Fruvele,task,2018-10-11,2018-10-24,0,0,100,,,,,blue2
+1.8.7,Gastrobahia,task,,,0,0,100,,,,,blue2
+1.8.8,Platlog,task,2018-10-11,2019-02-22,0,0,30,,,,,blue2
+1.8.9,"Lojas Merci",task,2019-02-11,2019-02-11,0,0,66,,,,,blue2
+1.8.10,"GI Metal",task,2019-01-08,2019-01-21,0,0,100,,,,,blue2
+1.8.11,Pronox,task,2019-02-07,2019-02-07,0,0,50,,,,,blue2
+1.8.12,Middleby,task,,,0,0,66,,,,,blue2
+1.8.13,"Nova Solução Digital",task,,,0,0,50,,,,,blue2
+1.8.14,"Primus Equipamentos",task,2019-01-03,2019-01-30,0,0,75,,,,,blue2
+1.8.15,Santander,task,,,0,0,0,,,,,blue2
+1.8.16,"Zip Automação",task,2019-01-09,2019-01-18,0,0,100,,,,,blue2
+1.8.17,"Nature Hidroponia",task,,,0,0,0,,,,,blue2
+1.9,"Primeiros Pedidos",group,,,0,0,0,,,,,
+1.10,"Itens Avulsos",group,,,0,0,0,,,,,
