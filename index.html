@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Sebraetec - Gestão de Portfólio</title>
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <header>
+    <img src="assets/sebraetec-logo.svg" alt="Sebraetec" class="logo">
+  </header>
+  <div id="container">
+    <aside id="sidebar"></aside>
+    <main id="main">
+      <div id="services"></div>
+      <form id="solution-form">
+        <input type="text" id="title" placeholder="Título da solução" required>
+        <select id="category-select" required></select>
+        <select id="subtema-select" required></select>
+        <select id="service-select" required></select>
+        <button type="submit">Salvar</button>
+        <button type="button" id="cancel-btn">Cancelar</button>
+      </form>
+      <table id="solutions">
+        <thead>
+          <tr>
+            <th>Título</th>
+            <th>Categoria</th>
+            <th>Subtema</th>
+            <th>Serviço Tecnológico</th>
+            <th>Ações</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </main>
+  </div>
+</body>
+</html>

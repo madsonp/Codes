@@ -1,0 +1,128 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  border-bottom: 1px solid #ddd;
+}
+
+.logo {
+  height: 40px;
+}
+
+#container {
+  flex: 1;
+  display: flex;
+  height: calc(100vh - 60px);
+}
+
+#sidebar {
+  width: 260px;
+  border-right: 1px solid #ddd;
+  padding: 20px;
+  overflow-y: auto;
+}
+
+.menu-category {
+  margin-bottom: 10px;
+}
+
+.menu-category-title {
+  cursor: pointer;
+  font-weight: bold;
+  margin: 5px 0;
+}
+
+.submenu {
+  list-style: none;
+  padding-left: 20px;
+  margin: 5px 0;
+  display: none;
+}
+
+.submenu li {
+  cursor: pointer;
+  padding: 4px 0;
+}
+
+.submenu li.selected {
+  font-weight: bold;
+}
+
+#main {
+  flex: 1;
+  padding: 20px;
+  overflow-y: auto;
+}
+
+#services {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+
+.service-option {
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: 10px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 120px;
+}
+
+.service-option.selected {
+  background: #e6f0ff;
+  border-color: #0A46C7;
+}
+
+.service-option span {
+  margin-top: 5px;
+  font-size: 14px;
+  text-align: center;
+}
+
+#solution-form {
+  margin-bottom: 20px;
+}
+
+#solution-form input,
+#solution-form select {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+}
+
+#solution-form button {
+  padding: 8px 12px;
+  margin-right: 5px;
+}
+
+#cancel-btn {
+  display: none;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.actions button {
+  margin-right: 5px;
+}
